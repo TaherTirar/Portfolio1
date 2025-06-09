@@ -280,6 +280,10 @@
     gap: 40px;
   }
 
+  .image-container {
+    height: 350px;
+  }
+
   .about-image {
     max-width: 500px;
     margin: 0 auto;

@@ -72,7 +72,7 @@ const About = () => {
       <div className="section-container">
         <h2 className="section-title">About Me</h2>
         <p className="section-subtitle">
-        I'm a motivated Junior Web Developer who enjoys building clean, interactive, and user-friendly websites. I love turning ideas into real, functional web experiences.</p>
+        I'm a motivated <b>Junior Web Developer</b> who enjoys building clean, interactive, and user-friendly websites. I love turning ideas into real functional web experiences.</p>
 
         <div className="about-content">
           <div className={`about-image ${isVisible ? "visible" : ""}`}>

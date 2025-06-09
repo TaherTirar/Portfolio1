@@ -98,7 +98,7 @@ const Contact = () => {
 
     // Send email using EmailJS
     emailjs.send(
-      'service_bilzk2p', // Replace with your EmailJS service ID
+      'service_0udshnc', // Replace with your EmailJS service ID
       'template_ew4abye', // Replace with your EmailJS template ID
       {
         from_name: formData.name,
@@ -188,7 +188,7 @@ const Contact = () => {
                 </div>
                 <div className="info-content">
                   <h4>Email</h4>
-                  <p>tirarmohamedtaher@gmail.com</p>
+                  <p>taher.tirar@gmail.com</p>
                 </div>
               </div>
 

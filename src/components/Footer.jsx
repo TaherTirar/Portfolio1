@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="footer-content">
           <div className="footer-logo">
             <h3>Mohamed Taher Tirar</h3>
-            <p>UI/UX Designer</p>
+            <p>Web Developer</p>
           </div>
 
           <div className="footer-links">
@@ -62,7 +62,7 @@ const Footer = () => {
               <h4>Contact</h4>
               <ul>
                 <li>Marrakech, Morocco</li>
-                <li>tirarmohamedtaher@gmail.com</li>
+                <li>taher.tirar@gmail.com</li>
                 <li>+212 6754-53709</li>
               </ul>
             </div>

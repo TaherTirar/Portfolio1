@@ -10,24 +10,29 @@ const Skills = () => {
   const designSkills = [
     { name: "UI Design", percentage: 95 },
     { name: "UX Research", percentage: 90 },
-    { name: "Wireframing", percentage: 92 },
-    { name: "Prototyping", percentage: 88 },
-    { name: "User Testing", percentage: 85 },
+    { name: "Responsive Design", percentage: 93 },
+    { name: "Wireframing", percentage: 89 },
+    { name: "Prototyping", percentage: 83 },
+    { name: "User Testing", percentage: 75 },
+    { name: "Figma", percentage: 66 },
   ]
 
   const toolSkills = [
-    { name: "Figma", percentage: 95 },
-    { name: "Adobe XD", percentage: 90 },
-    { name: "Sketch", percentage: 85 },
-    { name: "Photoshop", percentage: 80 },
-    { name: "Illustrator", percentage: 75 },
+    { name: "Figma", percentage: 66 },
+    { name: "Canva", percentage: 95 },
+    { name: "Photoshop", percentage: 50 },
+    { name: "Illustrator", percentage: 65 },
+    { name: "Pen & Paper", percentage: 80 },
+    { name: "Sketch", percentage: 55 },
   ]
 
   const codingSkills = [
-    { name: "HTML/CSS", percentage: 90 },
     { name: "JavaScript", percentage: 80 },
     { name: "React", percentage: 75 },
     { name: "Responsive Design", percentage: 95 },
+    { name: "Tailwind CSS", percentage: 80 },
+    { name: "Node.js", percentage: 65 },
+    { name: "Git & GitHub", percentage: 85 },
     { name: "SASS/SCSS", percentage: 85 },
   ]
 
@@ -60,8 +65,7 @@ const Skills = () => {
       <div className="section-container">
         <h2 className="section-title">My Skills</h2>
         <p className="section-subtitle">
-          I specialize in creating intuitive and engaging user experiences with a focus on clean, modern design and
-          attention to detail.
+          I craft <b>responsive</b>, user-friendly <b>web interfaces</b> with clean code, modern design principles, and a sharp eye for detail.
         </p>
 
         <div className="skills-container">
@@ -126,7 +130,7 @@ const Skills = () => {
           </div>
         </div>
 
-        <div className="skills-cards">
+        {/* <div className="skills-cards">
           <div className="skill-card">
             <div className="skill-card-icon">
               <svg
@@ -212,7 +216,7 @@ const Skills = () => {
             <h3>Frontend Development</h3>
             <p>Implementing designs with clean, responsive code to ensure pixel-perfect results.</p>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   )

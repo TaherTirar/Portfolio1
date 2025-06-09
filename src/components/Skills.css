@@ -39,6 +39,14 @@
   width: 100%;
 }
 
+.skill-item:hover {
+  background-color: aliceblue;
+}
+
+body.dark-mode .skill-item:hover {
+  background-color: var(--dark-hover);
+}
+
 .skill-info {
   display: flex;
   justify-content: space-between;

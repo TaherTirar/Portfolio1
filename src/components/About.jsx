@@ -78,7 +78,7 @@ const About = () => {
         <div className="about-content">
           <div className={`about-image ${isVisible ? "visible" : ""}`}>
             <div className="image-container">
-              <img src="/Images/profile3.jpg" alt="Mohamed Taher Tirar" />
+              <img src="/Images/logo.jpeg" alt="Mohamed Taher Tirar" />
             </div>
           </div>
 

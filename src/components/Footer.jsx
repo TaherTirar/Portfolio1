@@ -38,22 +38,22 @@ const Footer = () => {
               <h4>Services</h4>
               <ul>
                 <li>
-                  <a href="https://fr.wikipedia.org/wiki/D%C3%A9veloppeur_web" target="_blanc">Web Developer</a>
+                  Web Developer
                 </li>
                 <li>
-                  <a href="#">UI Design</a>
+                  UI Design
                 </li>
                 <li>
-                  <a href="#">UX Research</a>
+                  UX Research 
                 </li>
                 <li>
-                  <a href="#">Prototyping</a>
+                  Prototyping
                 </li>
                 <li>
-                  <a href="#">Mobile App Design</a>
+                  Mobile App Design
                 </li>
                 <li>
-                  <a href="#">Graphic Design</a>
+                  Graphic Design
                 </li>
               </ul>
             </div>
@@ -63,7 +63,7 @@ const Footer = () => {
               <ul>
                 <li>Marrakech, Morocco</li>
                 <li>taher.tirar@gmail.com</li>
-                <li>+212 6754-53709</li>
+                <li>&nbsp;+212 &nbsp;6754-53709</li>
               </ul>
             </div>
           </div>

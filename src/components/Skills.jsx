@@ -14,7 +14,6 @@ const Skills = () => {
     { name: "Wireframing", percentage: 89 },
     { name: "Prototyping", percentage: 83 },
     { name: "User Testing", percentage: 75 },
-    { name: "Figma", percentage: 66 },
   ]
 
   const toolSkills = [
@@ -27,13 +26,12 @@ const Skills = () => {
   ]
 
   const codingSkills = [
-    { name: "JavaScript", percentage: 80 },
-    { name: "React", percentage: 75 },
-    { name: "Responsive Design", percentage: 95 },
-    { name: "Tailwind CSS", percentage: 80 },
-    { name: "Node.js", percentage: 65 },
+    { name: "JavaScript", percentage: 85 },
+    { name: "React", percentage: 80 },
+    { name: "Laravel", percentage: 80 },
+    { name: "Tailwind CSS", percentage: 85 },
     { name: "Git & GitHub", percentage: 85 },
-    { name: "SASS/SCSS", percentage: 85 },
+    { name: "Node.js", percentage: 65 },
   ]
 
   useEffect(() => {

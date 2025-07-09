@@ -124,12 +124,6 @@ const Projects = () => {
           >
             UX Research
           </button>
-          <button
-            className={`filter-btn ${filter === "mobile-app" ? "active" : ""}`}
-            onClick={() => setFilter("mobile-app")}
-          >
-            Mobile Apps
-          </button>
         </div>
 
         <div className={`projects-grid ${isVisible ? "visible" : ""}`}>
@@ -190,15 +184,6 @@ const Projects = () => {
               </div>
             </div>
           ))}
-        </div>
-
-        <div className="projects-cta">
-          <a href="#contact" className="btn primary-btn">
-            Let's Work Together
-          </a>
-          <a href="#" className="btn secondary-btn">
-            View All Projects
-          </a>
         </div>
       </div>
     </section>

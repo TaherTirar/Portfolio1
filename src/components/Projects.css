@@ -3,35 +3,6 @@
   background-color: var(--background-color);
 }
 
-.project-filters {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 15px;
-  margin-bottom: 40px;
-}
-
-.filter-btn {
-  padding: 8px 20px;
-  background-color: var(--light-gray);
-  border: none;
-  border-radius: 30px;
-  font-size: 0.9rem;
-  font-weight: 500;
-  color: var(--text-color);
-  cursor: pointer;
-  transition: all var(--transition-speed);
-}
-
-.filter-btn:hover {
-  background-color: var(--border-color);
-}
-
-.filter-btn.active {
-  background-color: var(--primary-color);
-  color: white;
-}
-
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
@@ -183,11 +154,6 @@
 
   .project-filters {
     gap: 10px;
-  }
-
-  .filter-btn {
-    padding: 6px 15px;
-    font-size: 0.85rem;
   }
 
   .projects-cta {

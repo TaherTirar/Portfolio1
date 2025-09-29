@@ -12,7 +12,7 @@ const Projects = () => {
       id: 1,
       title: "Weather App",
       description: "Interactive Weather App – Application using the OpenWeatherMap API to display real-time weather data. Users can search cities, view multi-day forecasts, and manage favorite locations.",
-      image: "images/projects/Weather.png",
+      image: "Images/projects/Weather.png",
       techStack: ["React", "API", "CSS"],
       liveLink: "https://weather022.netlify.app/",
       codeLink: "https://github.com/TaherTirar/Weather",
@@ -49,7 +49,7 @@ const Projects = () => {
       title: "To Do List App",
       description:
         "A simple To-Do List app where users can add, edit, and delete tasks with priorities and deadlines. It features notifications, a dark/light mode toggle, and a clean, modern design.",
-      image: "images/projects/ToDoImage.png",
+      image: "Images/projects/ToDoImage.png",
       techStack: ["React", "Hooks", "notifications"],
       liveLink: "https://tahertirar.github.io/ToDo/",
       codeLink: "https://github.com/TaherTirar/ToDo",

@@ -13,7 +13,7 @@ const Projects = () => {
       title: "Weather App",
       description: "Interactive Weather App – Application using the OpenWeatherMap API to display real-time weather data. Users can search cities, view multi-day forecasts, and manage favorite locations.",
       image: "Images/projects/Weather.png",
-      techStack: ["React", "API", "CSS"],
+      techStack: ["React (TypeScript)", "OpenWeather API", "Tailwind CSS", "CSS"],
       liveLink: "https://weather022.netlify.app/",
       codeLink: "https://github.com/TaherTirar/Weather",
     },

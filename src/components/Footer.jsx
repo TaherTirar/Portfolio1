@@ -49,12 +49,6 @@ const Footer = () => {
                 <li>
                   Prototyping
                 </li>
-                <li>
-                  Mobile App Design
-                </li>
-                <li>
-                  Graphic Design
-                </li>
               </ul>
             </div>
 
